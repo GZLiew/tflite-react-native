@@ -1,7 +1,7 @@
 {
   "name": "tflite-react-native",
   "version": "0.1.0",
-  "description": "react native with tensorflow life",
+  "description": "react native with tensorflow lite",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
