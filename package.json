@@ -1,6 +1,6 @@
 {
-  "name": "gzliew/tflite-react-native",
-  "version": "1.0.0",
+  "name": "tensorflow-react-native",
+  "version": "1.0.1",
   "description": "react native with tensorflow lite",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

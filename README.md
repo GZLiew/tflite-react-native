@@ -1,17 +1,17 @@
 # tflite-react-native
 
-react native with tensorflow life
+react native with tensorflow lite
 
 ## Installation
 
 ```sh
-npm install tflite-react-native
+npm install tensorflow-react-native
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'tflite-react-native';
+import { multiply } from 'tensorflow-react-native';
 
 // ...
 
