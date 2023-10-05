@@ -1,5 +1,5 @@
 {
-  "name": "tflite-react-native",
+  "name": "gzliew/tflite-react-native",
   "version": "1.0.0",
   "description": "react native with tensorflow lite",
   "main": "lib/commonjs/index",
