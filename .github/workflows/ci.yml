@@ -36,11 +36,5 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: Install
         run: npm ci
-      - name: 'Automated Version Bump'
-        uses: 'phips28/gh-action-bump-version@master'
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
-        with:
-          skip-tag: 'true'
       - name: Publish new version of serverless-utils to github packages
         run: npm publish
