@@ -49,6 +49,9 @@ public class TfliteReactNativeModule extends ReactContextBaseJavaModule {
   public static final String NAME = "TfliteReactNative";
   private static final int BYTES_PER_CHANNEL = 4;
   private Interpreter tfLite;
+  private int inputSize = 0;
+  private Vector<String> labels;
+  float[][] labelProb;
 
   public TfliteReactNativeModule(ReactApplicationContext reactContext) {
     super(reactContext);
