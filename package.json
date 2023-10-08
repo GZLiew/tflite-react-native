@@ -1,6 +1,6 @@
 {
   "name": "tensorflow-react-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react native with tensorflow lite",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -84,7 +84,7 @@
   ],
   "packageManager": "yarn@3.6.1",
   "engines": {
-    "node": ">= 18.0.0"
+    "node": ">= 16.13.0"
   },
   "jest": {
     "preset": "react-native",
